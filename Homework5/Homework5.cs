@@ -1,5 +1,5 @@
 ﻿using System;
-using VaribleHelper;
+using HomeworkHelper;
 
 namespace Homework5
 {
@@ -9,7 +9,7 @@ namespace Homework5
         {
             try
             {
-                Console.WriteLine(Varible_Helpers.ConvertHoursIntoMinutes(-55));
+                Console.WriteLine(CyclesHelper.GetLargestDivisorOfA(10));
             }
             catch (ArgumentOutOfRangeException ex)
             {
