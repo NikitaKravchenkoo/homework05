@@ -9,7 +9,7 @@ namespace Homework5
         {
             try
             {
-                Console.WriteLine(CyclesHelper.GetLargestDivisorOfA(10));
+                Console.WriteLine(ArrayHelper.GetMinElement());
             }
             catch (ArgumentOutOfRangeException ex)
             {
